@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "django_unicorn",  # required for Django to register urls and templatetags
+    "unicorn",
 ]
 
 MIDDLEWARE = [
